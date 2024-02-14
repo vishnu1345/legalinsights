@@ -1,0 +1,37 @@
+.Card{
+    /* position: fixed; */
+    /* height: 30vh;
+    width: 20vw; */
+    position: relative;
+    background: #00000080;
+    height: 86vh;
+    width: 84vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 51px;
+    left: 81px;
+    
+}
+.heading{
+    position: absolute;
+    top: 3vh;
+    font-size: 8vh;
+}
+.img{
+    height: 27vh;
+    width: auto;
+    position: absolute;
+    top: 17vh;
+}
+.docs{
+    text-decoration: none;
+    font-family: 'Italiana';
+    color: white;
+    font-size: xx-large;
+}
+.links{
+    left: 76px;
+    position: relative;
+}

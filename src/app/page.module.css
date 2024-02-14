@@ -1,0 +1,117 @@
+.Home{
+    /* background-color: aqua; */
+    background-image: url(./bgfinal.jpeg);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* color: white; */
+    /* filter: blur(6px); */
+    z-index: -1;
+    position: fixed;
+    font-family: 'Italiana-Regular';
+
+}
+.card1{
+    position: relative;
+    top: 174px;
+    left: 102px;
+    display: flex;
+    
+
+}
+
+    /* page.module.css */
+
+
+
+.card2{
+    position: relative;
+    top: -74px;
+    left: 584px;
+    display: flex;
+}
+
+.card3{
+    top: -322px;
+    /* left: 0px; */
+    position: relative;
+    display: flex;
+    left: 1067px;
+}
+.text{
+    position: relative;
+    /* top: 249px;
+    left: 454px; */
+    color: white;
+    /* background-color: black; */
+    display: flex;
+    width: 50%; 
+    top: 32vh;
+    left: 32vw;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    height: 10vh;
+
+}
+.flash{
+    height: 4vh;
+    width: 49vw;
+    background-color: white;
+    position: relative;
+    top: 3vh;
+    left: 5vw;
+}
+.bar{
+    margin-right: 29px;
+    border-radius: 10px;
+    height: 28px;
+    position: relative;
+    top: -2vh;
+    z-index: 11000;
+}
+.searchicon{
+    height: 57px;
+    position: relative;
+    top: 2vh;
+    width: 21px;
+    right: 4vw;
+}
+.chat{
+    position: fixed;
+    top: 18vh;
+    left: 46vw;
+    height: 18vh;
+    width: 11vw;
+    border-radius: 50%;
+    filter: invert(1);
+}
+.flash p{
+    color: black;
+    position: absolute;
+    left: -100px; /* Start off-screen to the left */
+    top: 5%; /* Adjust vertically as needed */
+    /* background-color: #333; */
+    /* color: white; */
+    /* padding: 10px 20px; */
+    /* border-radius: 5px; */
+    /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); */
+    z-index: 9999; /* Ensure it appears above other content */
+    animation: floatAnimation 5s linear infinite;
+    animation-delay: 5s;
+    font-size: 23px;
+    /* font-size: large; */
+}
+@keyframes floatAnimation {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(810%);
+    }
+  }

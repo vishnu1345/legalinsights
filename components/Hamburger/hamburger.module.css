@@ -1,0 +1,140 @@
+ /*
+ .menu{
+    top: 4vh;
+    position: fixed;
+    left: 3vh;
+    z-index: 15;
+    /* cursor: url('../../public/Medieval\ Pointer.png'),auto; 
+    width: 30px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.line {
+    width: 100%;
+    height: 4px;
+    background-color: white;
+    transition: transform 0.3s ease;
+  }
+
+  /* .open .line:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  
+  .open .line:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .open .line:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  } */
+  /*
+  .menu .cross .line:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.menu .cross .line:nth-child(2) {
+    opacity: 0;
+}
+
+.menu .cross .line:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+.cross .line {
+    width: 100%;
+    height: 4px;
+    background-color: white;
+    transition: transform 0.3s ease;
+}
+  .hamburger.show {
+    display: flex;
+    transition: all o.8s ease-in-out;
+    transform: translateX(-100%);
+}
+.hamburger{
+   
+    color: white;
+    position: fixed;
+    height: 50vh;
+    width: 50vw;
+    top: 18vh;
+    bottom: 0vh;
+    left: 33vw;
+    right: 0vw;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+    font-family: 'Kingvoon';
+    /* z-index: 12; 
+} */
+
+/* components/HamburgerMenu.module.css */
+.container {
+    position: relative;
+    top: 3vh;
+    left: 0.8vw;
+}
+
+.hamburger {
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.line {
+    width: 100%;
+    height: 4px;
+    background-color: white;
+    transition: transform 0.3s ease;
+    z-index: 11;
+}
+
+.open .line:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.open .line:nth-child(2) {
+    opacity: 0;
+}
+
+.open .line:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+.menu {
+    position: absolute;
+    top: -24px;
+    left: 0;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: #000000a3;
+    height: 100vh;
+    width: 30vw;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+    transition: all 0.2s ease;
+}
+
+.menuItem {
+    color: black;
+    text-decoration: none;
+}
+
+.menuItem:hover {
+    color: white;
+}
+.menu h1{
+    color: white;
+}

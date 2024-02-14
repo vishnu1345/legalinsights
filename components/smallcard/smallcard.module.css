@@ -1,0 +1,28 @@
+.Card{
+    /* position: fixed; */
+    height: 34vh;
+    width: 20vw;
+    position: relative;
+    background: #00000080;
+    /* height: 86vh;
+    width: 84vw; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 146px;
+    left: 81px;
+    color: white;
+    
+}
+.heading{
+    position: absolute;
+    top: 11vh;
+    font-size: 8vh;
+}
+.img{
+    height: 27vh;
+    width: auto;
+    position: absolute;
+    top: 17vh;
+}

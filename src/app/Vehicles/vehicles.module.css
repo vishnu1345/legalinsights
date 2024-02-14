@@ -1,0 +1,17 @@
+.main{
+    background-image: url(./carbackground.jpeg);
+    background-color: red;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+    /* filter: blur(6px); */
+    z-index: -1;
+    position: fixed;
+    font-family: 'Italiana-Regular';
+}
+.cardmain{
+    padding-left: 43px;
+}
